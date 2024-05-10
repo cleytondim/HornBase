@@ -61,12 +61,12 @@ y_train, y_test = tf.keras.utils.to_categorical(y_train, num_classes=2), tf.kera
 def calcAccuracy(preds, trues):
     print(preds)
     print(trues)
-    certos=0
+    correct=0
     n = len(preds)
     for i in range(n):
         if(preds[i]==trues[0][i]):
-            certos=certos+1
-    return certos/n
+            correct=correct+1
+    return correct/n
 
 results = []
 greaterAccuracy = 0.0
