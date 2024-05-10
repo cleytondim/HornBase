@@ -7,3 +7,8 @@ Here you find the following:
 - "hornbase.csv", lists all files in the dataset, labeled nominally by the classes horn and not-horn, as well as numeric labels 1 and 0;
 - "hornbase_train.csv", lists 70% of the files, designated as train set;
 - "hornbase_test.csv", lists 30% of the files, designated as test set;
+
+
+Also, will find:
+- A Spectrogram Extractor in JAVA
+- A CNN created in Python, with all the spectograms attached
